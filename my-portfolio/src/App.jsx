@@ -43,10 +43,6 @@ function App() {
               </div>
 
               {/* Tarih ve Saat Alanı */}
-              <div className="datetime">
-                <span className="time">{dateTime.time}</span>
-                <span className="date">{dateTime.date}</span>
-              </div>
 
               <div className="menu-items">
                 <div className="menu-item-first">
@@ -64,6 +60,10 @@ function App() {
               </div>
             </div>
           )}
+              <div className="datetime">
+                <span className="time">{dateTime.time}</span>
+                <span className="date">{dateTime.date}</span>
+              </div>
         </div>
       </div>
     </>

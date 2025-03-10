@@ -123,3 +123,25 @@ html, body {
 .menu-item-second p:hover{
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
+.datetime {
+  position: absolute;
+  right: 10px; /* En sağa yapıştırır */
+  bottom: 0px; /* En aşağıya yapıştırır */
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.time {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.date {
+  display: block;
+  font-size: 14px;
+  color: lightgray;
+}
